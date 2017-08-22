@@ -7,10 +7,13 @@ public class Main {
 		SalesData data = new SalesData();
 		displayGreeting();
 		data.display();
+		//
 
 	}
 
 	private static void displayGreeting(){
-		System.out.println("HELLO Welcome to Hybris Sales");		
+		System.out.println("HELLO Welcome to Hybris Sales");	
+		
+		System.out.println("Hello world");
 	}
 }
